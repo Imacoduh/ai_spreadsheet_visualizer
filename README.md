@@ -27,7 +27,7 @@ This is a Streamlit application that allows users to upload spreadsheet files (C
 
 ## Usage
 
-1. Run the Streamlit application:
+1. Run the Streamlit application: streamlit run app.py
 2. Upload your spreadsheet file using the file uploader in the sidebar.
 3. Select the desired visualization type (scatter plot, line plot, or bar chart) and choose the appropriate columns for the x and y axes.
 4. The application will display the data preview, visualization plot, and AI-generated insights based on the uploaded data.
