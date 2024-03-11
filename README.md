@@ -11,6 +11,14 @@ This is a Streamlit application that allows users to upload spreadsheet files (C
  - Bar chart
 - AI-generated insights and recommendations using OpenAI's language model
 
+## Technologies Used
+- Python
+- Streamlit
+- OpenAI
+- Pandas
+- Langchain
+- Plotly
+
 ## Installation
 
 1. Clone the repository or download the source code.
