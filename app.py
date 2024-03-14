@@ -56,6 +56,7 @@ def main():
             st.write(df.head())
 
             st.write('### Data Visualization')
+
             st.sidebar.subheader('Select Visualization')
             visualization_type = st.sidebar.selectbox('Choose Visualization Type', ['Scatter Plot', 'Line Plot', 'Bar Chart'])
 
@@ -75,9 +76,18 @@ def main():
                 fig = px.bar(df, x=x_column, y=y_column, title='Bar Chart')
                 st.plotly_chart(fig)
 
-            st.write('### AI-Generated Insights')
-            insights = generate_insights(df)
-            st.write(insights)
+        
+
+              # Button to initiate AI insights
+            if st.button("Generate AI Insights"):
+                # Placeholder for AI insights generation code
+                st.write("AI insights generation initiated...")
+
+                st.write('### AI-Generated Insights')
+                insights = generate_insights(df)
+                st.write(insights)
+                
+                st.write("AI insights generation completed!")
 
 if __name__ == "__main__":
     main()
